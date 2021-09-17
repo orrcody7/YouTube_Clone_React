@@ -13,6 +13,7 @@ class App extends Component {
         return ( 
             <div>
                 <h1>Hello World!</h1>
+                <VideoSearch />
             </div>
          );
     }
