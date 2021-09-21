@@ -11,17 +11,17 @@ class App extends Component {
     }
 
 
-    componentDidMount(){
-        this.getSearchResult();
-    }
+    // componentDidMount(){
+    //     this.getSearchResult();
+    // }
 
-    async getSearchResult() {
-        console.log('hello')
-        let response = await axios.get("https://www.googleapis.com/youtube/v3/search?q=fails&key=AIzaSyDgmnPXqyq2sAWewi9ddbi4RU6zH3mAI54&maxResults=5&video&part=snippet");
-        this.setState({
-            video: response.data
-        })
-    }
+    // async getSearchResult() {
+    //     console.log('hello')
+    //     let response = await axios.get("https://www.googleapis.com/youtube/v3/search?q=fails&key=AIzaSyCfNLDfQx80kGti8l2Ggm04bKwc1fBIeoI&maxResults=5&video&part=snippet");
+    //     this.setState({
+    //         video: response.data
+    //     })
+    // }
 
 
 
